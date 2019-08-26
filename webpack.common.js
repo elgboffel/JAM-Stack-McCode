@@ -3,6 +3,7 @@ const path = require("path");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const AssetsPlugin = require("assets-webpack-plugin");
+const sync = require("./sync-contentful");
 
 module.exports = {
   entry: {
@@ -55,8 +56,7 @@ module.exports = {
         flatten: true
       }
     ]),
-    () => {
-      console.log("poop");
-    }
+    
+    sync
   ]
 };
