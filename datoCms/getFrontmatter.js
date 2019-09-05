@@ -2,7 +2,7 @@
  * 
  * @param {Object} data 
  */
-module.exports = (data, path) => {
+module.exports = (data) => {
 
   if (!data) return;
 
@@ -11,7 +11,6 @@ module.exports = (data, path) => {
   return {
     frontmatter: {
       type:  mappedData.itemType,
-      url: path,
       ...mappedData
     }
   };

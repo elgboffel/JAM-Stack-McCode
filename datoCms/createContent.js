@@ -32,7 +32,7 @@ module.exports = (dato, root, i18n) => {
       if (fs.existsSync(sanitizedPath)) {
         root.createPost(
           `${sanitizedPath}/${fileName}`, "yaml", 
-          getFrontmatter(article, `${sanitizedPath}`)
+          getFrontmatter(article)
         );
       } else {
         root.directory(sanitizedPath, (dir) => {          

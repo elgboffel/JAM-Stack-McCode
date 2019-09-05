@@ -1,9 +1,11 @@
 {{ define "main" }}
 
-<h1>Hugo with Webpack, Sass, and PostCSS</h1>
+<h1>McCode - JAM Stack site build with DatoCMS, HUGO SSG and Netlify</h1>
 
-<h3>Hooray 🎉 - you've built this with <a href="https://github.com/netlify/victor-hugo">Victor-Hugo</a>!</h3>
+<h3>Hooray 🎉 - it is working. See the code base here <a href="https://github.com/elgboffel/JAM-Stack-McCode">McCode Github</a>!</h3>
 
-<a href="{{ "/articles" | relURL }}">Check out the tech</a>
+{{range where .Site.AllPages "Params.id" .Params.link.id | first 1 }}
+    <a href="{{ .RelPermalink }}">Want to learn more?</a>
+{{ end }}
 
 {{ end }}

@@ -1,6 +1,5 @@
 ---
 type: article
-url: null
 id: '1422005'
 itemType: article
 updatedAt: '2019-08-29T10:53:20.584Z'
