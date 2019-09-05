@@ -4,6 +4,6 @@
 
 <h3>{{ .Params.BodyText}}</h3>
 
-{{ partial "link-by-id" (dict "iId" .Params.link.id "Context" . "Name" .Params.LinkName) }}
+{{ partial "link-by-id" (dict "Id" .Params.Link.Id "Context" . "LinkName" .Params.LinkName) }}
 
 {{ end }}

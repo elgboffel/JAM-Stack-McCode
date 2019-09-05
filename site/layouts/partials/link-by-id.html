@@ -1,3 +1,4 @@
+{{ $name := .LinkName }}
 {{range where .Context.Site.AllPages "Params.id" .Id | first 1 }}
-    <a href="{{ .RelPermalink }}">{{ .Name }}</a>
+    <a href="{{ .RelPermalink }}">{{ $name }}</a>
 {{ end }}
