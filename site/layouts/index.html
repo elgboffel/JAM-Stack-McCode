@@ -1,9 +1,9 @@
 {{ define "main" }}
 
-<h1>McCode - JAM Stack site build with DatoCMS, HUGO SSG and Netlify</h1>
+<h1>{{ .Params.Heading }}</h1>
 
-<h3>Hooray 🎉 - it is working. See the code base here <a href="https://github.com/elgboffel/JAM-Stack-McCode">McCode Github</a>!</h3>
+<h3>{{ .Params.BodyText}}</h3>
 
-{{ partial "link-by-id" (dict "id" .Params.link.id "context" .) }}
+{{ partial "link-by-id" (dict "iId" .Params.link.id "Context" . "Name" .Params.LinkName) }}
 
 {{ end }}

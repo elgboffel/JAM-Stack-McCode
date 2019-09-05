@@ -1,6 +1,6 @@
 ---
-title: Home
-bodyText: This is some body text
+heading: 'McCode - JAM Stack site build with DatoCMS, HUGO SSG and Netlify'
+bodyText: "Hooray \U0001F389 - it is working. See the code base here [McCode Github](https://github.com/elgboffel/JAM-Stack-McCode)"
 link:
   id: '1422005'
   itemType: article
@@ -13,5 +13,6 @@ link:
   heading: Article 5
   image: null
   title: Article 5
+linkName: Want to learn more?
 ---
 

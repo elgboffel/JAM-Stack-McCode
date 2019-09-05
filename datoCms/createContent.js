@@ -13,9 +13,10 @@ module.exports = (dato, root, i18n) => {
   root.createPost(
     `${rootPath}/_index.md`, "yaml", {
       frontmatter: {
-        title: dato.frontPage.title,
+        heading: dato.frontPage.heading,
         bodyText: dato.frontPage.bodyText,
         link: dato.frontPage.link.toMap(),
+        linkName: dato.frontPage.linkName
       }
     }
   );
