@@ -1,0 +1,3 @@
+{{range where .context.Site.AllPages "Params.id" .id | first 1 }}
+    <a href="{{ .RelPermalink }}">Want to learn more?</a>
+{{ end }}
