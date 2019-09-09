@@ -15,8 +15,6 @@ body {
 
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   text-align: center;
   background-color: #282c34;
   color: white;
@@ -29,4 +27,19 @@ a {
 
 .content {
   padding: 0 32px;
+}
+
+.hero-slider {
+  display: flex;
+  width: 100vw;
+
+  &__slide {
+    flex: 1 0 auto;
+
+    img {
+      object-fit: cover;
+      height: 60vh;
+      width: 100vw;
+    }
+  }
 }

@@ -1,0 +1,7 @@
+<div class="hero-slider">
+    {{  range $item_index, $item_val := .Slides }}
+        <div class="hero-slider__slide {{ if eq $item_index 0}}hero-slider__slide--active{{ end }}">
+            <img src="{{ .image.url }}">
+        </div>
+    {{ end }}
+</div>

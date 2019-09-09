@@ -1,5 +1,7 @@
 {{ define "main" }}
 
+{{ partial "hero-slider" (dict "Slides" .Params.HeroSlider) }}
+
 <h1>{{ .Params.Heading }}</h1>
 
 <h3>{{ .Params.BodyText}}</h3>
