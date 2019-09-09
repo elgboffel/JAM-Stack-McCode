@@ -24,7 +24,7 @@ heroSlider:
       height: 1400
       title: null
       alt: null
-      url: 'https://www.datocms-assets.com/15566/1568030993-star-wars-fan-art.jpg'
+      url: 'https://www.datocms-assets.com/15566/1568033441-star-wars-fan-art.jpg'
   - id: '1421917'
     itemType: slide
     updatedAt: '2019-08-29T10:55:30.552Z'
@@ -40,7 +40,7 @@ heroSlider:
       alt: null
       url: 'https://www.datocms-assets.com/15566/1568030707-animals-dogs-shampoo-bubbles-corgi.jpg'
 heading: 'McCode - JAM Stack site build with DatoCMS, HUGO SSG and Netlify'
-bodyText: "<h4>Hooray\U0001F389</h4>\n<p>it is working. See the code base here <a href=\"https://github.com/elgboffel/JAM-Stack-McCode\">https://github.com/elgboffel/JAM-Stack-McCode</a></p>"
+bodyText: "<h3>Hooray \U0001F389 it is working. See the code base here <a href=\"https://github.com/elgboffel/JAM-Stack-McCode\">https://github.com/elgboffel/JAM-Stack-McCode</a></h3>"
 link:
   id: '1422005'
   itemType: article
