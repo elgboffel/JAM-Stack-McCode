@@ -4,7 +4,7 @@
 
 <h1>{{ .Params.Heading }}</h1>
 
-<h3>{{ .Params.BodyText}}</h3>
+{{ .Params.BodyText | safeHTML}}
 
 {{ partial "link-by-id" (dict "Id" .Params.Link.Id "Context" . "LinkName" .Params.LinkName) }}
 
