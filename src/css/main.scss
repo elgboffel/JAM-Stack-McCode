@@ -20,6 +20,13 @@ body {
   color: white;
 }
 
+footer {
+  margin-top: auto;
+  padding: 45px;
+  background-color: #202226;
+
+}
+
 a {
   color: pink;
   text-decoration: none;
@@ -34,12 +41,17 @@ a {
   width: 100vw;
 
   &__slide {
+    display: none;
     flex: 1 0 auto;
 
     img {
       object-fit: cover;
       height: 60vh;
       width: 100vw;
+    }
+
+    &--active {
+      display: block;
     }
   }
 }

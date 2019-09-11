@@ -39,7 +39,7 @@ heroSlider:
       title: null
       alt: null
       url: 'https://www.datocms-assets.com/15566/1568030707-animals-dogs-shampoo-bubbles-corgi.jpg'
-heading: 'McCode - JAM Stack site build with DatoCMS, HUGO SSG and Netlify'
+heading: 'McCode - JAM Stack site build with DatoCMS, HUGO SSG and Netlify?'
 bodyText: "<h3>Hooray \U0001F389 it is working. See the code base here <a href=\"https://github.com/elgboffel/JAM-Stack-McCode\">https://github.com/elgboffel/JAM-Stack-McCode</a></h3>"
 link:
   id: '1422005'
