@@ -1,0 +1,14 @@
+D:\Repository\JAM-Stack-McCode\services\McCodeAPI\obj\Debug\netcoreapp2.1\McCodeAPI.csprojAssemblyReference.cache
+D:\Repository\JAM-Stack-McCode\services\McCodeAPI\obj\Debug\netcoreapp2.1\McCodeAPI.csproj.CoreCompileInputs.cache
+D:\Repository\JAM-Stack-McCode\services\McCodeAPI\obj\Debug\netcoreapp2.1\McCodeAPI.RazorAssemblyInfo.cache
+D:\Repository\JAM-Stack-McCode\services\McCodeAPI\obj\Debug\netcoreapp2.1\McCodeAPI.RazorAssemblyInfo.cs
+D:\Repository\JAM-Stack-McCode\services\McCodeAPI\obj\Debug\netcoreapp2.1\McCodeAPI.AssemblyInfoInputs.cache
+D:\Repository\JAM-Stack-McCode\services\McCodeAPI\obj\Debug\netcoreapp2.1\McCodeAPI.AssemblyInfo.cs
+D:\Repository\JAM-Stack-McCode\services\McCodeAPI\bin\Debug\netcoreapp2.1\McCodeAPI.deps.json
+D:\Repository\JAM-Stack-McCode\services\McCodeAPI\bin\Debug\netcoreapp2.1\McCodeAPI.runtimeconfig.json
+D:\Repository\JAM-Stack-McCode\services\McCodeAPI\bin\Debug\netcoreapp2.1\McCodeAPI.runtimeconfig.dev.json
+D:\Repository\JAM-Stack-McCode\services\McCodeAPI\bin\Debug\netcoreapp2.1\McCodeAPI.dll
+D:\Repository\JAM-Stack-McCode\services\McCodeAPI\obj\Debug\netcoreapp2.1\McCodeAPI.RazorTargetAssemblyInfo.cache
+D:\Repository\JAM-Stack-McCode\services\McCodeAPI\bin\Debug\netcoreapp2.1\McCodeAPI.pdb
+D:\Repository\JAM-Stack-McCode\services\McCodeAPI\obj\Debug\netcoreapp2.1\McCodeAPI.dll
+D:\Repository\JAM-Stack-McCode\services\McCodeAPI\obj\Debug\netcoreapp2.1\McCodeAPI.pdb
