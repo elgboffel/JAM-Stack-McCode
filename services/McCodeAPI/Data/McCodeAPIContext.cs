@@ -10,13 +10,5 @@ namespace McCodeAPI.Data
         { }
 
         public DbSet<Comment> Comments { get; set; }
-
-        // protected override void OnModelCreating
-        //     (ModelBuilder modelBuilder)
-        // {
-        //     modelBuilder.Entity<SamuraiBattle>()
-        //         .HasKey(s => new { s.BattleId,
-        //                            s.SamuraiId });
-        // }
     }
 }
