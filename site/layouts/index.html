@@ -4,6 +4,8 @@
 
 <h1>{{ .Params.Heading }}</h1>
 
+<div id="clock"></div>
+
 {{ .Params.BodyText | safeHTML }}
 
 {{ partial "link-by-id" (dict "Id" .Params.Link.Id "Context" . "LinkName" .Params.LinkName) }}

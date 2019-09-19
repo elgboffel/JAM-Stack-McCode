@@ -75,7 +75,7 @@ rules:
   # Variables
   # https://github.com/eslint/eslint/tree/master/docs/rules#variables
   no-undef: 2
-  no-unused-vars: [2, {"args": "none"}]
+  no-unused-vars: [1, {"args": "none"}]
 
 # Global scoped method and vars
 globals:
