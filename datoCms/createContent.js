@@ -9,6 +9,8 @@ const rootPath = "site/content";
 
 module.exports = (dato, root, i18n) => {
 
+  console.log(INCOMING_HOOK_BODY);
+
   // Create home
   root.createPost(
     `${rootPath}/_index.md`, "yaml", {
