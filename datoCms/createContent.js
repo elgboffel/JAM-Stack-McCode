@@ -1,4 +1,6 @@
 const fs = require("fs");
+const chalk = require("chalk");
+
 const traverse = require("./traverse");
 const getFrontmatter = require("./getFrontmatter");
 const getFilename = require("./getFilename");
@@ -9,7 +11,10 @@ const rootPath = "site/content";
 
 module.exports = (dato, root, i18n) => {
 
-  console.log(process.env.INCOMING_HOOK_BODY);
+  console.log(chalk.magenta("################### Incoming Hook Body ###################"));
+  console.log(chalk.magenta(process.env.INCOMING_HOOK_BODY));
+  console.log(chalk.magenta("################### Incoming Hook Body End ###################"));
+
 
   // Create home
   root.createPost(
