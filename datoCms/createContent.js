@@ -10,11 +10,11 @@ const rootPath = "site/content";
 
 
 module.exports = (dato, root, i18n) => {
-
+  const json = JSON.parse(process.env.INCOMING_HOOK_BODY)
   console.log(chalk.magenta("################### Incoming Hook Body ###################"));
   console.log(chalk.magenta(process.env.INCOMING_HOOK_BODY));
-  console.log(chalk.magenta(process.env.INCOMING_HOOK_BODY.entity_id));
-  console.log(chalk.magenta(dato.find(process.env.INCOMING_HOOK_BODY.entity_id).toMap()));
+  console.log(chalk.magenta(json.entity_id));
+  console.log(chalk.magenta(dato.find(json.entity_id).toMap()));
   console.log(chalk.magenta("################### Incoming Hook Body End ###################"));
 
 
