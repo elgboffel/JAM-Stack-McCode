@@ -9,7 +9,7 @@ const rootPath = "site/content";
 
 module.exports = (dato, root, i18n) => {
 
-  console.log(INCOMING_HOOK_BODY);
+  console.log(process.env.INCOMING_HOOK_BODY);
 
   // Create home
   root.createPost(
