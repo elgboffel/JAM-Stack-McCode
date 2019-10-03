@@ -2,7 +2,7 @@
 type: article
 id: '1406714'
 itemType: article
-updatedAt: '2019-08-29T11:32:23.557Z'
+updatedAt: '2019-10-03T06:51:50.977Z'
 createdAt: '2019-08-27T19:01:38.298Z'
 position: 1
 children:
