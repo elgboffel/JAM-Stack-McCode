@@ -1,8 +1,9 @@
 /**
  * 
  * @param {Object} data 
+ * @param {string} generatedPath
  */
-module.exports = (data) => {
+module.exports = (data, generatedPath = "") => {
 
   if (!data) return;
 
@@ -11,6 +12,7 @@ module.exports = (data) => {
   return {
     frontmatter: {
       type:  mappedData.itemType,
+      path: generatedPath,
       ...mappedData
     }
   };

@@ -33,6 +33,8 @@
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.4.4",
     "@contentful/rich-text-plain-text-renderer": "^13.4.0",
+    "@types/algoliasearch": "^3.34.3",
+    "algoliasearch": "^3.35.0",
     "assets-webpack-plugin": "^3.9.7",
     "babel-eslint": "^10.0.2",
     "babel-loader": "^8.0.6",

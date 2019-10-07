@@ -1,8 +1,9 @@
 ---
 type: article
+path: site/content/article-1
 id: '1406714'
 itemType: article
-updatedAt: '2019-10-03T06:51:50.977Z'
+updatedAt: '2019-10-03T07:32:13.626Z'
 createdAt: '2019-08-27T19:01:38.298Z'
 position: 1
 children:
@@ -42,7 +43,7 @@ children:
     title: Article 2
 bodyText: ''
 lead: ''
-heading: Article 1
+heading: Article 1 test
 image:
   format: jpeg
   size: 391001
