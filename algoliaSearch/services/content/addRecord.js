@@ -4,7 +4,7 @@ const index = require("./getIndex");
  * @param {object} object
  */
 module.exports = object => {
-    
+
     if (!index || !object) throw `no algolia index or object found to add as index record`;
 
     // If no Algolia id exists add new record
