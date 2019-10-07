@@ -6,7 +6,7 @@ module.exports = () => {
 
     if (!client) return;
     
-    const index = client().initIndex(indexes.content);
+    const index = client.initIndex(indexes.content);
     
     if (!index) return;
 
