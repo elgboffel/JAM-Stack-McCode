@@ -1,10 +1,10 @@
 const chalk = require("chalk");
+const SiteClient = require("datocms-client").SiteClient;
 
 const traverse = require("./traverse");
 const createPost = require("./createPost");
 
 const rootPath = "site/content";
-
 
 
 module.exports = (dato, root, i18n) => {
@@ -25,6 +25,25 @@ module.exports = (dato, root, i18n) => {
   // console.log(item.toMap());
 
   // console.log(chalk.cyan("################### TEST ###################"));
+
+  // Populate Dato Cms
+  const client = new SiteClient(process.env.DATOCMS_READ_WRITE_TOKEN);
+
+  // create a new Article record
+  // client.uploadImage("https://static.ghost.org/v2.0.0/images/organising-your-content.jpg")
+  //   .then((image) => {
+  //     console.log(image);
+  //     return client.items.create({
+  //       itemType: "131602",
+  //       title: "My first article!",
+  //       heading: "My first article!",
+  //       lead: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod.",
+  //       image: image,
+  //       bodyText: ""
+  //     });
+  //   })
+  //   .then((record) => console.log(record))
+  //   .catch((err) => console.log(err));
 
   // Create home
   root.createPost(
